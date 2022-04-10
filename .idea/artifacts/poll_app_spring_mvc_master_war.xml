@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="poll_app_spring_mvc-master:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>poll_app_spring_mvc-master</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="poll_with_spring.war">
+      <element id="artifact" artifact-name="poll_app_spring_mvc-master:war exploded" />
+    </root>
+  </artifact>
+</component>
